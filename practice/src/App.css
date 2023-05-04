@@ -1,0 +1,24 @@
+
+
+.App {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textfield {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  text-align: center;
+
+}
+
+.login-box{
+  display: flex;
+  width: 400px;
+  max-width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+}
