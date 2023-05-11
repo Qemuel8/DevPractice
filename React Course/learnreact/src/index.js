@@ -2,14 +2,20 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import img from "./react.png";
 
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img src={img} width="40px" />
+      </nav>
+    </header>
+  );
+}
+
 function List() {
   return (
     <div>
-      <header>
-        <nav>
-          <img src={img} width="40px" />
-        </nav>
-      </header>
+      <Header />
       <h1> Reasons im excited to learn React</h1>
       <ul>
         <li> React is exciting because it feels like playing with lego</li>
